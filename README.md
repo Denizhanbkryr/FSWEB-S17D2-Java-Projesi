@@ -19,7 +19,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * Spring devtools kullanarak uygulamanızın her değişim sonrasında kendisini restart etmesini sağlayınız.
  * Uygulamamızda ```main``` metodumuzun bulunduğu paket dışında iki adet daha paket tanımlayınız. ```model``` ve ```tax``` isminde olabilirler.
  * Uygulamamızda ```main``` metodumuzun bulunduğu paket dışında kalıcak şekilde ```rest``` isimli bir paket oluşturunuz.
- * ```rest``` paketi içerisinde ````DeveloperController```` isimli bir controller tanımlayınız.
+ * ```rest``` paketi içerisinde ````DeveloperController```` isimli bir model tanımlayınız.
  * ```model``` paketi içerisinde ````Developer```` isminde bir adet class oluşturunuz. ```id, name, salary ve experience``` isimli 4 adet değişken tanımlayınız.
  * experience değeri enum tipinde olmalı JUNIOR, MID ve SENIOR değerlerinden birini almalı.
  * ````Developer```` sınıfı içerisinde tüm ````instance variable```` değerlerini set eden bir adet constructor tanımlayınız.
